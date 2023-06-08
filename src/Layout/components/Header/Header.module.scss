@@ -1,0 +1,64 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: var(--defaultlayout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.inner {
+    height: 100%;
+    width: var(--defaultlayout-width-content);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 42px;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
+// user
+
+.user-icon {
+    color: rgba(22, 24, 35, 1);
+    font-size: 1.7rem;
+    width: 24px;
+    height: 25px;
+    padding: 3px 3px 0 19px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.user-avata {
+    margin-left: 24px;
+    width: 32px;
+    height: 32px;
+    background: center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 16px;
+    cursor: pointer;
+    font-style: normal;
+    padding: 0 4px;
+    color: #464850;
+}
