@@ -1,6 +1,8 @@
 import classNames from 'classnames/bind';
 import Styles from './Header.module.scss';
 import image from '~/assets';
+
+// thư viện
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,9 +18,10 @@ import {
     faUser,
 } from '@fortawesome/free-solid-svg-icons';
 import { faTiktok } from '@fortawesome/free-brands-svg-icons';
-
-import routesConfig from '~/config/routes';
 import { Link } from 'react-router-dom';
+
+// component
+import routesConfig from '~/config/routes';
 import Button from '~/component/Buttons';
 import Menu from '~/component/Popper/Menu';
 import Image from '~/component/Image';
